@@ -1,0 +1,13 @@
+nav{
+    height: 5vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    font-size: 20px;
+    width: 120px;
+    height: 60px;
+    border: none;
+}
