@@ -22,22 +22,11 @@ header{
     overflow: hidden;
 }
 
-.hexagon-background::before{
-    content: "";
-    width: calc(var(--s)/2 + var(--m));
-    float: left;
-    height: 100%;
-    shape-outside: repeating-linear-gradient(#0000 0 calc(var(--f) - 2px), #000 0 var(--f));
-}
-
 .hexagon-background div{
-    width: var(--s);
-    height: var(--s);
-    margin: var(--m) var(--m) calc(var(--m) - var(--s) * 0.2886) var(--m);
-    font-size: inherit;
-    display: inline-block;
-    background: #202030;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: inherit;
+    height: inherit;
+    background-image: url('../images/Hexagon-pattern.png');
+    background-size: 112px 174px;
 }
 
 .Picture-hexagon{
@@ -53,3 +42,4 @@ header{
 p{
     font-size: 50px;
 }
+
