@@ -1,17 +1,17 @@
 nav{
-    height: 5vh; 
+    height: 50px; 
     background: #F58A07;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 a{
-    font-size: 24px;
+    font-size: 11px;
     color: white;
-    width: 160px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 65px;
+    padding: 5px 0 5px 0;
     background: #824C71;
     border: 1px solid #111;
     border-radius: 25px;
@@ -30,4 +30,17 @@ a:hover{
 
 a:active{
     color: white;
+}
+
+@media screen and (min-width: 1000px){
+    nav{
+        height: 75px;
+        gap: 15px;
+    }
+
+    a{
+        font-size: 1em;
+        width: 120px;
+        padding: 10px 0 10px 0;
+    }
 }
