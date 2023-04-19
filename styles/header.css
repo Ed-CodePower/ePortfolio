@@ -1,13 +1,9 @@
 header{
-    height: 25vh;
+    height: 215px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    --s: 150px;
-    --m: 4px;
-    --f: calc( 1.3 * var(--s) + 4 * var(--m) - 1px);
-    --h: 25vh + 75px;
 }
 
 .hexagon-background{
@@ -23,11 +19,11 @@ header{
     width: inherit;
     height: inherit;
     background-image: url('../images/Hexagon-pattern.png');
-    background-size: 112px 174px;
+    background-size: 44px 56px;
 }
 
 .Picture-hexagon{
-    width: 50%;
+    width: 187px;
     height: 75%;
     background: whitesmoke;
     clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
@@ -37,6 +33,24 @@ header{
 }
 
 p{
-    font-size: 50px;
+    font-size: 16px;
 }
 
+@media screen and (min-width: 768px){
+
+}
+
+
+@media screen and (min-width: 1000px){
+    header{
+        height: 375px;
+    }
+
+    .hexagon-background div{
+        background-size: 66px 84px;
+    }
+
+    .Picture-hexagon{
+        width: 400px;
+    }
+}
