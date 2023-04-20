@@ -1,0 +1,10 @@
+#AboutMe p{
+    margin-top: 10px;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+#AboutMe span{
+    color: #9883E5;
+    font-weight: bold;
+}
