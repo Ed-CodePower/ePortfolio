@@ -2,6 +2,8 @@
     margin-top: 10px;
     font-size: 0.875rem;
     text-align: center;
+    width: 300px;
+    margin: 10px auto auto auto;
 }
 
 #AboutMe span{
