@@ -29,3 +29,10 @@
     width: 50px;
     
 }
+
+@media screen and (min-width: 1000px){
+    #AboutMe p{
+        width: 750px;
+        margin: 10px auto auto auto;
+    }
+}
