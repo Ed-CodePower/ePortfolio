@@ -8,3 +8,24 @@
     color: #9883E5;
     font-weight: bold;
 }
+
+#Skills .container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#Skills .container .item{
+    margin: 5px 10px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#Skills img{
+    width: 50px;
+    
+}
